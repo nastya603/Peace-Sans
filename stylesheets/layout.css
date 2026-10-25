@@ -1,3 +1,627 @@
 * {
   box-sizing: border-box;
 }
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "PEACE SANS", sans-serif;
+}
+
+.bird {
+  width: 160px;
+  height: auto;
+  position: absolute;
+  top: 185px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.bird2 {
+  width: 210px;
+  height: auto;
+  position: absolute;
+  top: 160px;
+  right: 110px;
+}
+
+.bird4 {
+  width: 72px;
+  height: auto;
+  position: absolute;
+  top: 90px;
+  right: 170px;
+}
+
+.bird5 {
+  position: absolute;
+  width: 60px;
+  height: auto;
+  top: 500px;
+  left: 100px;
+}
+
+.bird6 {
+  position: absolute;
+  width: 80px;
+  height: auto;
+  top: 480px;
+  left: 500px;
+}
+
+.podloshka2 {
+  width: 950px;
+  height: auto;
+  position: absolute;
+  top: 490px;
+  left: -25px;
+}
+
+.sun {
+  width: 280px;
+  height: auto;
+  position: absolute;
+  top: 140px;
+  left: 90px;
+  z-index: 1;
+}
+
+.title {
+  margin-top: 2px;
+  text-align: center;
+  font-family: "PEACE SANS", sans-serif;
+  font-size: 210px;
+  color: #425542;
+  transform: translateY(270px);
+  position: relative;
+  z-index: 2;
+}
+
+.bird3 {
+  width: 140px;
+  height: auto;
+  position: absolute;
+  top: 405px;
+  right: 260px;
+  z-index: 3;
+}
+
+.podloshka1 {
+  position: absolute;
+  width: 1600px;
+  height: auto;
+  top: 400px;
+  left: -70px;
+  z-index: 5;
+}
+
+.podloshka9 {
+  position: absolute;
+  width: 340px;
+  height: auto;
+  top: 620px;
+  left: -100px;
+  z-index: 5;
+}
+
+.podloshka6 {
+  position: absolute;
+  width: 320px;
+  height: auto;
+  top: 750px;
+  left: 180px;
+  z-index: 5;
+}
+
+.kust {
+  position: absolute;
+  width: 190px;
+  height: auto;
+  top: 650px;
+  left: 540px;
+  z-index: 6;
+}
+
+.elka {
+  position: absolute;
+  width: 150px;
+  height: auto;
+  top: 640px;
+  left: 100px;
+  z-index: 6;
+}
+
+.fon2 {
+  position: absolute;
+  width: 2000px;
+  height: auto;
+  top: 850px;
+  left: -400px;
+  z-index: 6;
+}
+
+.podloshka7 {
+  position: absolute;
+  width: 1800px;
+  height: auto;
+  top: 730px;
+  left: -300px;
+  z-index: 7;
+}
+
+h1,
+h2,
+p {
+  position: relative;
+  color: #425542;
+}
+
+.section-1 {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.section-2 {
+  position: relative;
+  min-height: 250vh;
+  height: auto;
+  overflow: hidden;
+  background-color: #e6e9cc;
+}
+
+.section-3 {
+  position: relative;
+  min-height: 310vh;
+  height: auto;
+  overflow: hidden;
+  background-color: #e6e9cc;
+}
+
+.section-4 {
+  position: relative;
+  height: 3980px;
+  overflow: hidden;
+  background-color: #2d633f;
+}
+
+.kust2 {
+  width: 1100px;
+  height: auto;
+  position: absolute;
+  top: 530px;
+  right: 500px;
+  z-index: 6;
+}
+
+.kust3 {
+  width: 450px;
+  height: auto;
+  position: absolute;
+  top: 740px;
+  right: -140px;
+  z-index: 7;
+}
+
+.kust4 {
+  width: 1700px;
+  height: auto;
+  position: absolute;
+  top: 750px;
+  left: -130px;
+  z-index: 6;
+}
+
+.flow {
+  width: 1200px;
+  height: auto;
+  position: absolute;
+  top: 0;
+  right: -300px;
+  z-index: 6;
+}
+
+.kust5 {
+  width: 900px;
+  height: auto;
+  position: absolute;
+  top: 900px;
+  left: -130px;
+  z-index: 6;
+}
+
+.kust6 {
+  width: 750px;
+  height: auto;
+  position: absolute;
+  top: 1200px;
+  right: -140px;
+  z-index: 7;
+}
+
+.zagolovok1 {
+  width: 700px;
+  height: auto;
+  position: absolute;
+  top: 0;
+  left: 20px;
+}
+
+.zagolovok2 {
+  width: 1000px;
+  height: auto;
+  position: absolute;
+  top: 1920px;
+  left: 20px;
+}
+
+.zagolovok3 {
+  width: 700px;
+  height: auto;
+  position: absolute;
+  top: 1235px;
+  left: 20px;
+  z-index: 2;
+}
+
+.zagolovok4 {
+  width: 900px;
+  height: auto;
+  position: absolute;
+  top: 40px;
+  left: 20px;
+  z-index: 2;
+}
+
+.zagolovok5 {
+  display: block;
+  position: absolute;
+  top: 2100px;
+  left: 20px;
+  width: 300px;
+  height: auto;
+  z-index: 3;
+}
+
+.snake {
+  width: 1580px;
+  height: auto;
+  position: absolute;
+  top: 1050px;
+  left: -20px;
+  z-index: 8;
+}
+
+.trees-group {
+  width: 250px;
+  height: auto;
+  position: absolute;
+  top: 330px;
+  left: 120px;
+  z-index: 2;
+}
+
+.jun {
+  width: 1400px;
+  height: auto;
+  position: absolute;
+  top: 65px;
+  left: 50%;
+  margin-left: -700px;
+  z-index: 2;
+}
+
+.fon3 {
+  width: 1600px;
+  height: auto;
+  position: absolute;
+  top: 915px;
+  left: 50%;
+  margin-left: -800px;
+  z-index: 1;
+}
+
+.leaves {
+  width: 1600px;
+  height: auto;
+  position: absolute;
+  top: 1315px;
+  left: 50%;
+  margin-left: -800px;
+  z-index: 2;
+}
+
+.leaves2 {
+  width: 1600px;
+  height: auto;
+  position: absolute;
+  top: 2115px;
+  left: 50%;
+  margin-left: -850px;
+  z-index: 2;
+}
+
+.polukrug {
+  width: 1600px;
+  height: auto;
+  position: absolute;
+  top: 2515px;
+  left: 50%;
+  margin-left: -800px;
+  z-index: 2;
+}
+
+.leaf1 {
+  width: 450px;
+  height: auto;
+  position: absolute;
+  top: 150px;
+  left: -50px;
+  z-index: 2;
+}
+
+.struktura {
+  display: block;
+  position: relative;
+  width: 1400px;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 500px;
+  z-index: 1;
+}
+
+.fon4 {
+  display: block;
+  position: relative;
+  width: 1500px;
+  height: auto;
+  margin: 0 auto;
+  margin-top: -250px;
+  z-index: 2;
+}
+
+.glify {
+  display: block;
+  position: relative;
+  width: 1300px;
+  height: auto;
+  margin: 0 auto;
+  margin-top: -1970px;
+  z-index: 3;
+}
+
+.derevo {
+  display: block;
+  position: relative;
+  width: 1500px;
+  height: auto;
+  margin: 0 auto;
+  margin-top: -310px;
+  z-index: 3;
+}
+
+.fon-detali {
+  display: block;
+  position: relative;
+  width: 1500px;
+  height: auto;
+  margin: 0 auto;
+  margin-top: -290px;
+  z-index: 2;
+}
+
+.bloki {
+  display: block;
+  position: relative;
+  width: 220px;
+  height: auto;
+  margin-left: 220px;
+  margin-top: -700px;
+  z-index: 4;
+}
+
+.intro-text {
+  font-size: 25px;
+  margin-top: 120px;
+  margin-left: 120px;
+  line-height: 1.6;
+  text-align: left;
+}
+
+.about-text {
+  font-size: 25px;
+  margin-top: 790px;
+  margin-left: 120px;
+  line-height: 1.6;
+  text-align: left;
+  color: #e6e9cc;
+  position: relative;
+  z-index: 10;
+}
+
+.nature-text {
+  font-size: 25px;
+  margin-top: 830px;
+  margin-left: 120px;
+  line-height: 1.6;
+  text-align: left;
+  color: #425542;
+  position: relative;
+  z-index: 10;
+}
+
+.apertura-text {
+  position: absolute;
+  top: 950px;
+  left: calc(12% - 95px);
+  z-index: 20;
+  margin: 0;
+  font-size: 56px;
+  line-height: 1.6;
+  text-align: left;
+  color: #e6e9cc;
+}
+
+.asimmetriya-text {
+  position: absolute;
+  top: 1005px;
+  right: 85px;
+  z-index: 20;
+  margin: 0;
+  font-size: 56px;
+  line-height: 1.6;
+  text-align: right;
+  color: #e6e9cc;
+}
+
+.student-text {
+  position: absolute;
+  top: 3483px;
+  left: 235px;
+  z-index: 4;
+  margin: 0;
+  font-size: 23px;
+  line-height: 1.6;
+  text-align: left;
+  color: #e6e9cc;
+}
+
+.teacher-text {
+  position: absolute;
+  top: 3534px;
+  left: 235px;
+  z-index: 4;
+  margin: 0;
+  font-size: 23px;
+  line-height: 1.6;
+  text-align: left;
+  color: #e6e9cc;
+}
+
+.group-text {
+  position: absolute;
+  top: 3634px;
+  left: 235px;
+  z-index: 4;
+  margin: 0;
+  font-size: 23px;
+  line-height: 1.6;
+  text-align: left;
+  color: #e6e9cc;
+}
+
+.text-10 {
+  position: absolute;
+  top: 3534px;
+  left: 480px;
+  z-index: 4;
+  margin: 0;
+  font-size: 23px;
+  line-height: 1.6;
+  text-align: left;
+  color: #425542;
+}
+
+.text-11 {
+  position: absolute;
+  top: 3483px;
+  left: 480px;
+  z-index: 4;
+  margin: 0;
+  font-size: 23px;
+  line-height: 1.6;
+  text-align: left;
+  color: #425542;
+}
+
+.text-12 {
+  position: absolute;
+  top: 3585px;
+  left: 480px;
+  z-index: 4;
+  margin: 0;
+  font-size: 23px;
+  line-height: 1.6;
+  text-align: left;
+  color: #425542;
+}
+
+.text-13 {
+  position: absolute;
+  top: 3636px;
+  left: 480px;
+  z-index: 4;
+  margin: 0;
+  font-size: 23px;
+  line-height: 1.6;
+  text-align: left;
+  color: #425542;
+}
+
+.zagolovok1-text {
+  position: absolute;
+  top: 15px;
+  left: 37px;
+  z-index: 10;
+  margin: 0;
+  font-family: "PEACE SANS", sans-serif;
+  font-size: 74px;
+  letter-spacing: -1px;
+  white-space: nowrap;
+  color: #e6e9cc;
+}
+
+.zagolovok2-text {
+  position: absolute;
+  top: 1932px;
+  left: 38px;
+  z-index: 10;
+  margin: 0;
+  font-family: "PEACE SANS", sans-serif;
+  font-size: 69px;
+  letter-spacing: -1px;
+  white-space: nowrap;
+  color: transparent;
+}
+
+.zagolovok3-text {
+  position: absolute;
+  top: 1245px;
+  left: 34px;
+  z-index: 10;
+  margin: 0;
+  font-family: "PEACE SANS", sans-serif;
+  font-size: 60px;
+  letter-spacing: -1px;
+  white-space: nowrap;
+  color: transparent;
+}
+
+.graf-features-text {
+  position: absolute;
+  top: 56px;
+  left: 36px;
+  z-index: 10;
+  margin: 0;
+  font-family: "PEACE SANS", sans-serif;
+  font-size: 62px;
+  letter-spacing: -1px;
+  white-space: nowrap;
+  color: transparent;
+}
+
+.glyphs-text {
+  position: absolute;
+  top: 2116px;
+  left: 38px;
+  z-index: 10;
+  margin: 0;
+  font-family: "PEACE SANS", sans-serif;
+  font-size: 72px;
+  letter-spacing: -1px;
+  white-space: nowrap;
+  color: transparent;
+}
